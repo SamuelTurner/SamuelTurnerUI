@@ -1,4 +1,4 @@
-# SamuelTurnerUI-core
+# SamuelTurnerUI
 
 This is the core of SamuelTurnerUI, containing nothing other than the code I have written.
 
@@ -6,6 +6,6 @@ This is intended to be included as a sub-module along with a few other things, s
 
 ## Usage
 
-Add SamuelTurnerUI-core as a submodule within your git project:
+Add SamuelTurnerUI as a submodule within your git project:
 
-    $ git submodule add git@github.com:SamuelTurner/SamuelTurnerUI-core your-local-folder
+    $ git submodule add git@github.com:SamuelTurner/SamuelTurnerUI your-local-folder
