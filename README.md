@@ -8,4 +8,4 @@ This is intended to be included as a sub-module along with a few other things, s
 
 Add SamuelTurnerUI-core as a submodule within your git project:
 
-    $ git submodule add git@github.com:SamuelTurnerUI-core your-local-folder
+    $ git submodule add git@github.com:SamuelTurner/SamuelTurnerUI-core your-local-folder
