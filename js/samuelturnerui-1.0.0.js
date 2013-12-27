@@ -60,13 +60,6 @@ function navShowHide() {
 
 $(document).ready(function(){
 	
-	// Run Clingy-Footer
-	$(document).clingyFooter({
-		pageSelector : '#page',
-		pageContentSelector : '#page-body',
-		footerSelector: "#page-footer-wrapper"
-	});
-	
 	// Run on page load
 	navShowHide();
 	$(window).resize(function() {

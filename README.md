@@ -1,13 +1,11 @@
-# Samuel-Turner UI
+# SamuelTurnerUI-core
 
-This is my starting point for the UI for my personal projects. It's built on inuit.css V5.0.
+This is the core of SamuelTurnerUI, containing nothing other than the code I have written.
 
-Feel free to use it if it will help you out, but I won't be offering any support or anything yet. This is mainly to stop me from duplicating my styles all the time!
-
-## Demo
-
-You can view a working demo of this project here: (http://samuel-turner.co.uk/demos/samuelturnerui/latest/)
+This is intended to be included as a sub-module along with a few other things, so you must include [inuit.css](https://raw.github.com/csswizardry/inuit.css/) in order to compile and use the CSS using SASS. The JS requires jQuery and I suggest including and minifying it with [SimpleJSMinifier](https://github.com/SamuelTurner/SimpleJSMinifier).
 
 ## Usage
 
-Just copy the samuelturnerui directories into your CSS and JS directories, and modify your style.scss file to import "samuelturnerui/samuelturnerui".
+Add SamuelTurnerUI-core as a submodule within your git project:
+
+    $ git submodule add git@mygithost:billboard lib/billboard
