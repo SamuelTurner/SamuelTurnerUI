@@ -1,0 +1,14 @@
+/*------------------------------------*\
+    $LISTS
+\*------------------------------------*/
+/**
+ * Display list as a simple stack of items
+ */
+.list--stacked {
+	margin: 0 0 $base-spacing-unit 0;
+	list-style: none;
+
+	li {
+		margin: 0;
+	}
+}
