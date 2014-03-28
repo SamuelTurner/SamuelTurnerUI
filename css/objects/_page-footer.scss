@@ -27,4 +27,23 @@
 	}
 }
 
+.page-footer__top-bar {
+	float: left;
+}
+
+@if $use-nav == true {
+
+	.page-footer__nav {
+		@extend .nav;
+		
+		color: #fff;
+		margin: 0;
+		float: right;
+		
+		a {
+			color: #fff;
+		}
+	}
+}
+
 }
